@@ -43,3 +43,4 @@ console.log(b[1]);
 b[1].style.backgroundColor="skyblue"
 b[1].style.textAlign="center"
 
+
