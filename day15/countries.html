@@ -4,13 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #div{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap:25px;
+            align-items:center;
+            justify-content: center;
+        }
+        img{
+            height:200px;
+            width:200px;
+            border-radius: 100%;
+        }
+    </style>
 </head>
 <body>
-    <label>enter the country:</label>
+    <!-- <label>enter the country:</label>
     <select name="select" id="select">
      <input list="demo1"> 
      <datalist id="demo1"></datalist>
-    </select>
+    </select> -->
+    <input type="search" name="search" id="search">
+    <button id="btn">search</button>
+    <div id="div">
+        
+    </div>
     <script src="./countries.js"></script>
 </body>
 </html>
